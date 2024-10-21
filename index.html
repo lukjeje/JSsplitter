@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'>
+    <script type="text/javascript" src="index.js"></script>
+    <title>SPLITTER</title>
+</head>
+<body>
+
+    <div id="title">
+        <span id="text">SPLI<br>TTER</span>
+    </div>
+
+    <div id="main">
+      
+        
+
+        <div id="inL">
+
+            <div id="bill">
+
+                <p id="billp"><b>Bill</b></p>
+
+                <form> 
+                    <input id="billin" placeholder="$0" min="0" type="number" name="fname"> 
+                </form>
+
+            </div>
+
+            <br>
+
+          <div id="tip">
+
+             <p id="tipP"><b>Select Tip %</b></p>
+
+             <div id="tipmain">
+                 <button onclick="myf(5)" class="tipbtn">5%</button>
+                 <button onclick="myf(10)" class="tipbtn">10%</button>
+                 <button onclick="myf(15)" class="tipbtn">15%</button>
+                 <br>
+                 <button onclick="myf(25)" class="tipbtn">25%</button>
+                 <button onclick="myf(50)" class="tipbtn">50%</button>
+                 <input class="tipbtn" id="tipcum" placeholder="%" min="0" type="number" name="fname"> 
+             </div>
+
+          </div>
+
+
+          <div id="NP">
+
+            <p id="NPp"><b>Number of People</b></p>
+            <input id="billin2" placeholder="Number Of People" min="0" type="number" name="fname">
+
+          </div>
+
+
+        </div>
+
+        <div id="inR">
+
+            <div id="Rtop">
+                <p id="RtopP"><b>Tip Amount</b> <Br><span id="xx">/ person</span></p>
+                <p id="am"><b>$0.00</b></p>    
+            </div>
+
+            <div id="Rtop">
+                <p id="RtopP"><b>Total</b> <Br><span id="xx">/ person</span></p>
+                <p id="am2"><b>$0.00</b></p>    
+            </div>
+
+            <button onclick="submit();" id="reset"><b>SUBMIT</b></button>    
+            
+        </div>
+        
+
+
+
+    </div>
+    
+</body>
+</html>
